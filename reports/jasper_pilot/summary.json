@@ -1,0 +1,175 @@
+{
+  "scope": "single-seed exploratory pilot, 32 selected bands by default; no physical-truth or advantage claim",
+  "config": {
+    "schema_version": "jasper-pilot-1",
+    "seed": 20260913,
+    "samples": {
+      "train": 64,
+      "val": 24,
+      "test": 24
+    },
+    "bands": 32,
+    "lambda_nominal": 0.03,
+    "parameter_l2": 0.0001,
+    "pairwise_l2": 0.0001,
+    "train_maxiter": 40,
+    "train_ftol": 1e-12,
+    "inverse_maxiter": 150,
+    "inverse_ftol": 1e-10,
+    "difference_step": 1e-06
+  },
+  "scale": 1.0874,
+  "coverage": {
+    "train": {
+      "pixels": 64,
+      "mixtures_below_095": 37,
+      "dominant_reference_counts": [
+        19,
+        33,
+        12,
+        0
+      ]
+    },
+    "val": {
+      "pixels": 24,
+      "mixtures_below_095": 21,
+      "dominant_reference_counts": [
+        11,
+        0,
+        12,
+        1
+      ]
+    },
+    "test": {
+      "pixels": 24,
+      "mixtures_below_095": 18,
+      "dominant_reference_counts": [
+        11,
+        0,
+        10,
+        3
+      ]
+    }
+  },
+  "forward_spectral_rmse_nominal": {
+    "train": {
+      "lmm_at_reference": 0.04627203100821689,
+      "pairwise": 0.04429980974013558,
+      "qsimix": 0.04513394172542272
+    },
+    "val": {
+      "lmm_at_reference": 0.04802268878713716,
+      "pairwise": 0.04018545883764385,
+      "qsimix": 0.04543050712632397
+    },
+    "test": {
+      "lmm_at_reference": 0.06336980172984251,
+      "pairwise": 0.059237619321294385,
+      "qsimix": 0.06151730887390332
+    }
+  },
+  "test_inverse": {
+    "fcls": {
+      "n_pixels": 24,
+      "spectral_rmse_nominal": 0.04897448701343188,
+      "sre_db": 17.79962275810108,
+      "sre_status": "defined",
+      "sam_mean_radians": 0.06690842276501141,
+      "sam_defined_count": 24,
+      "armse_vs_reference": 0.10143415373915333,
+      "per_material_armse_vs_reference": [
+        0.09195287701283097,
+        0.09751189697204858,
+        0.10600557904598268,
+        0.10933647949433185
+      ],
+      "per_material_bias_vs_reference": [
+        -0.06912676064447788,
+        0.03417233572940934,
+        0.04834303439340145,
+        -0.013388609478332952
+      ],
+      "asc_max_abs": 0.0,
+      "anc_max_violation": 0.0,
+      "prediction_outside_model_0_1_count": 0
+    },
+    "pairwise": {
+      "n_pixels": 24,
+      "spectral_rmse_nominal": 0.043161353220760965,
+      "sre_db": 18.89711962124226,
+      "sre_status": "defined",
+      "sam_mean_radians": 0.06288444037988762,
+      "sam_defined_count": 24,
+      "armse_vs_reference": 0.15333483780876359,
+      "per_material_armse_vs_reference": [
+        0.07338225844164091,
+        0.0947676404101137,
+        0.20172052412855893,
+        0.19745697902521045
+      ],
+      "per_material_bias_vs_reference": [
+        -0.056015498735675434,
+        0.034266720547643015,
+        0.04386630371295922,
+        -0.022117525524926736
+      ],
+      "asc_max_abs": 2.220446049250313e-16,
+      "anc_max_violation": 0.0,
+      "prediction_outside_model_0_1_count": 0
+    },
+    "qsimix": {
+      "n_pixels": 24,
+      "spectral_rmse_nominal": 0.046969675439916835,
+      "sre_db": 18.162669486531943,
+      "sre_status": "defined",
+      "sam_mean_radians": 0.0649461803825676,
+      "sam_defined_count": 24,
+      "armse_vs_reference": 0.0972716728359934,
+      "per_material_armse_vs_reference": [
+        0.07336441512901086,
+        0.09677150329169834,
+        0.0961260963873223,
+        0.1177277608808914
+      ],
+      "per_material_bias_vs_reference": [
+        -0.04944252763387754,
+        0.033734663642884584,
+        0.020812047922638303,
+        -0.005104183931645301
+      ],
+      "asc_max_abs": 2.220446049250313e-16,
+      "anc_max_violation": 0.0,
+      "prediction_outside_model_0_1_count": 3
+    }
+  },
+  "training": {
+    "success": true,
+    "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+    "iterations": 27,
+    "selected_iteration": 2,
+    "elapsed_seconds": 5.005409600002167
+  },
+  "solver": {
+    "pairwise": {
+      "failed_starts": 0,
+      "fallback_pixels": 0,
+      "elapsed_seconds": 0.11248760000307811
+    },
+    "qsimix": {
+      "failed_starts": 0,
+      "fallback_pixels": 1,
+      "elapsed_seconds": 2.581645899997966
+    }
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1"
+  },
+  "hashes": {
+    "subset.npz": "2d62ab3f3ac454dc7290aabf3601b984a33dddc1248ead576165d686331f7ace",
+    "baselines.npz": "8e1969a809db125085423961ad0a03882a97ecb7aca75849c6275976d9a65f74",
+    "checkpoint.npz": "dcc8ee2cfb5998c05aec4d1bcfd737a8da839051ac98fc36167328128675c199",
+    "inverse.npz": "a27be88bfa20197a10c95b4c810a6186b5dd997c3d76c0ef59c0e75bb39dc2ce"
+  }
+}

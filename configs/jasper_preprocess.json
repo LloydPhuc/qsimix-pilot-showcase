@@ -1,0 +1,39 @@
+{
+  "schema_version": "jasper-preprocess-1.0",
+  "expected_raw_sha256": {
+    "data/jasperRidge2_R198.mat": "0e4118a6452f6044978a8ca3762fb0f791115467904936d463c4e111e56e682e",
+    "data/Jasper_GT.mat": "92f5697b43705802b904fd13ba99b6ce65a3d203682864abc3fbec922beec374",
+    "data/end4_Abundance.fig": "1d0ce4237d03ac97cd7f64debde8e79d2a526f050357a8bdbc0efdee8be2b857",
+    "data/end4_Materials.fig": "7870d2be51e88da548665ff5093a0216f2c894d5630464a0219c395b829a13ad"
+  },
+  "nonnegative_tolerance": 1e-10,
+  "abundance_sum_tolerance": 1e-8,
+  "scale_divisor": 5000,
+  "seed": 20260913,
+  "split_columns_inclusive": {
+    "train": [[0, 57]],
+    "val": [[60, 77]],
+    "test": [[80, 99]],
+    "buffer": [[58, 59], [78, 79]]
+  },
+  "orientation": {
+    "order": "F",
+    "status": "provisional",
+    "evidence": "Agent A source_audit.md: A[k,:].reshape(100,100,order='F') matches all four FIG CData arrays exactly (max abs error 0); M matches FIG YData exactly. This does not independently verify Y-A pairing. Parent reports Borsoi demo uses MATLAB F reshape for Y with the same filename, but no upstream hash match. F-order for Y remains an exploratory convention.",
+    "A_vs_FIG_status": "verified_exact",
+    "M_vs_FIG_status": "verified_exact",
+    "Y_vs_A_status": "unverified",
+    "Y_orientation_status": "indirect_evidence_exploratory_convention",
+    "audit_report": "reports/jasper_ridge/source_audit.md",
+    "decisions_report": "reports/jasper_ridge/research_decisions.md"
+  },
+  "eda_thresholds_predeclared": {
+    "pure_abundance": [0.9, 0.95, 0.99],
+    "interior_min_abundance": 0.01,
+    "robust_outlier_mad_multiplier": 6.0,
+    "robust_mad_normal_consistency_factor": 1.4826,
+    "outlier_fit_split": "train",
+    "mad_zero_policy": "undefined; flag separately, do not divide by zero",
+    "outlier_action": "flag_only"
+  }
+}

@@ -1,0 +1,6 @@
+# Local Jasper Ridge analysis runtime and caches
+.venv-jasper/
+tmp/
+__pycache__/
+.pytest_cache/
+*.pyc

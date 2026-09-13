@@ -1,0 +1,7 @@
+# Minimal runtime for scripts/prepare_jasper.py and scripts/eda_jasper.py.
+# Tested exact versions are recorded after the executed run in requirements-jasper-lock.txt.
+numpy>=1.26,<3
+scipy>=1.11,<2
+matplotlib>=3.8,<4
+pandas>=2.1,<4
+pytest>=8,<10

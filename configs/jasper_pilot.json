@@ -1,0 +1,14 @@
+{
+  "schema_version": "jasper-pilot-1",
+  "seed": 20260913,
+  "samples": {"train": 64, "val": 24, "test": 24},
+  "bands": 32,
+  "lambda_nominal": 0.03,
+  "parameter_l2": 0.0001,
+  "pairwise_l2": 0.0001,
+  "train_maxiter": 40,
+  "train_ftol": 1e-12,
+  "inverse_maxiter": 150,
+  "inverse_ftol": 1e-10,
+  "difference_step": 1e-6
+}

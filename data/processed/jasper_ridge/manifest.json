@@ -1,0 +1,855 @@
+{
+  "schema_version": "jasper-preprocess-1.0",
+  "inputs": [
+    {
+      "path": "data/jasperRidge2_R198.mat",
+      "size_bytes": 2987224,
+      "sha256": "0e4118a6452f6044978a8ca3762fb0f791115467904936d463c4e111e56e682e"
+    },
+    {
+      "path": "data/Jasper_GT.mat",
+      "size_bytes": 178271,
+      "sha256": "92f5697b43705802b904fd13ba99b6ce65a3d203682864abc3fbec922beec374"
+    },
+    {
+      "path": "data/end4_Abundance.fig",
+      "size_bytes": 179847,
+      "sha256": "1d0ce4237d03ac97cd7f64debde8e79d2a526f050357a8bdbc0efdee8be2b857"
+    },
+    {
+      "path": "data/end4_Materials.fig",
+      "size_bytes": 13627,
+      "sha256": "7870d2be51e88da548665ff5093a0216f2c894d5630464a0219c395b829a13ad"
+    }
+  ],
+  "raw_integrity": {
+    "unchanged": true,
+    "expected_sha256_checked": true,
+    "after": {
+      "data/jasperRidge2_R198.mat": {
+        "size_bytes": 2987224,
+        "sha256": "0e4118a6452f6044978a8ca3762fb0f791115467904936d463c4e111e56e682e"
+      },
+      "data/Jasper_GT.mat": {
+        "size_bytes": 178271,
+        "sha256": "92f5697b43705802b904fd13ba99b6ce65a3d203682864abc3fbec922beec374"
+      },
+      "data/end4_Abundance.fig": {
+        "size_bytes": 179847,
+        "sha256": "1d0ce4237d03ac97cd7f64debde8e79d2a526f050357a8bdbc0efdee8be2b857"
+      },
+      "data/end4_Materials.fig": {
+        "size_bytes": 13627,
+        "sha256": "7870d2be51e88da548665ff5093a0216f2c894d5630464a0219c395b829a13ad"
+      }
+    }
+  },
+  "metadata_original": {
+    "nRow": 100,
+    "nCol": 100,
+    "nBand": 224,
+    "maxValue": 5000,
+    "SlectBands": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219
+    ],
+    "Region": {
+      "xStart": 269,
+      "xEnd": 368,
+      "yStart": 105,
+      "yEnd": 204
+    },
+    "cood": [
+      "1-tree",
+      "2-water",
+      "3-dirt",
+      "4-road"
+    ],
+    "mat_headers": {
+      "data/jasperRidge2_R198.mat": "MATLAB 5.0 MAT-file, Platform: PCWIN64, Created on: Wed Oct 22 15:26:40 2014",
+      "data/Jasper_GT.mat": "MATLAB 5.0 MAT-file, Platform: PCWIN64, Created on: Wed Oct 22 15:31:33 2014"
+    }
+  },
+  "source": {
+    "upstream_status": "UNKNOWN",
+    "upstream": "UNKNOWN",
+    "atmospheric_correction": "UNKNOWN",
+    "measurement_units": "UNKNOWN",
+    "license": "UNKNOWN",
+    "wavelength_centers": null,
+    "wavelength_status": "UNKNOWN; use original band IDs",
+    "known_M_protocol": "supplied benchmark reference; not independent training-only extracted M",
+    "GT_status": "reference estimates, not field measurement",
+    "pixel_alignment": "Y columns paired with A_ref columns by benchmark convention; not independently verified",
+    "band_alignment": "M-Y alignment assumed from dimensions and benchmark convention; independent wavelength metadata absent",
+    "use_limit": "exploratory only; provenance insufficient for confirmatory model-effectiveness claims"
+  },
+  "scale": {
+    "formula": "Y = Y_raw.astype(float64) / maxValue; M = M_raw; A_ref = A_raw",
+    "divisor": 5000,
+    "status": "nominal_metadata_exploratory_convention",
+    "clipped": false,
+    "evidence": "MAT contains maxValue=5000 but no divisor formula; FIG verifies existing M values only",
+    "physical_calibration_status": "UNVERIFIED",
+    "common_Y_M_scale_status": "UNVERIFIED",
+    "selection": "fixed source maxValue; no residual minimization or test-based scale selection"
+  },
+  "orientation": {
+    "order": "F",
+    "status": "provisional",
+    "evidence": "Agent A source_audit.md: A[k,:].reshape(100,100,order='F') matches all four FIG CData arrays exactly (max abs error 0); M matches FIG YData exactly. This does not independently verify Y-A pairing. Parent reports Borsoi demo uses MATLAB F reshape for Y with the same filename, but no upstream hash match. F-order for Y remains an exploratory convention.",
+    "A_vs_FIG_status": "verified_exact",
+    "M_vs_FIG_status": "verified_exact",
+    "Y_vs_A_status": "unverified",
+    "Y_orientation_status": "indirect_evidence_exploratory_convention",
+    "audit_report": "reports/jasper_ridge/source_audit.md",
+    "decisions_report": "reports/jasper_ridge/research_decisions.md",
+    "row_formula": "pixel_id % height",
+    "col_formula": "pixel_id // height",
+    "cube_formula": "Y.T.reshape(height, width, 198, order='F')",
+    "index_base": 0,
+    "roundtrip_verified": true
+  },
+  "band_ids_original": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219
+  ],
+  "material_names": [
+    "tree",
+    "water",
+    "dirt",
+    "road"
+  ],
+  "arrays": {
+    "Y": {
+      "shape": [
+        198,
+        10000
+      ],
+      "dtype": "float64"
+    },
+    "M": {
+      "shape": [
+        198,
+        4
+      ],
+      "dtype": "float64"
+    },
+    "A_ref": {
+      "shape": [
+        4,
+        10000
+      ],
+      "dtype": "float64"
+    },
+    "band_ids_original": {
+      "shape": [
+        198
+      ],
+      "dtype": "int64"
+    },
+    "pixel_ids": {
+      "shape": [
+        10000
+      ],
+      "dtype": "int64"
+    },
+    "row": {
+      "shape": [
+        10000
+      ],
+      "dtype": "int64"
+    },
+    "col": {
+      "shape": [
+        10000
+      ],
+      "dtype": "int64"
+    },
+    "valid_pixel_mask": {
+      "shape": [
+        10000
+      ],
+      "dtype": "bool"
+    },
+    "train_idx": {
+      "shape": [
+        5800
+      ],
+      "dtype": "int64"
+    },
+    "val_idx": {
+      "shape": [
+        1800
+      ],
+      "dtype": "int64"
+    },
+    "test_idx": {
+      "shape": [
+        2000
+      ],
+      "dtype": "int64"
+    },
+    "buffer_idx": {
+      "shape": [
+        400
+      ],
+      "dtype": "int64"
+    },
+    "split_labels": {
+      "shape": [
+        10000
+      ],
+      "dtype": "int64"
+    },
+    "material_names": {
+      "shape": [
+        4
+      ],
+      "dtype": "<U5"
+    },
+    "height": {
+      "shape": [],
+      "dtype": "int64"
+    },
+    "width": {
+      "shape": [],
+      "dtype": "int64"
+    }
+  },
+  "masks": {
+    "policy": "nonfinite OR negative OR all-zero spectrum; individual zeros retained",
+    "valid_count": 10000,
+    "invalid_count": 0,
+    "reason_mask_encoding": "pixel_ids_true: all other pixel IDs are false; reasons may overlap",
+    "reasons": {
+      "nonfinite_spectrum": {
+        "count": 0,
+        "pixel_ids_true": []
+      },
+      "negative_spectrum": {
+        "count": 0,
+        "pixel_ids_true": []
+      },
+      "all_zero_spectrum": {
+        "count": 0,
+        "pixel_ids_true": []
+      }
+    }
+  },
+  "splits": {
+    "seed": 20260913,
+    "seed_usage": "sampling/plots only; split assignment deterministic",
+    "columns_inclusive_zero_based": {
+      "train": [
+        [
+          0,
+          57
+        ]
+      ],
+      "val": [
+        [
+          60,
+          77
+        ]
+      ],
+      "test": [
+        [
+          80,
+          99
+        ]
+      ],
+      "buffer": [
+        [
+          58,
+          59
+        ],
+        [
+          78,
+          79
+        ]
+      ]
+    },
+    "label_codes": {
+      "train": 0,
+      "val": 1,
+      "test": 2,
+      "buffer": 3,
+      "invalid": 4
+    },
+    "counts": {
+      "train": 5800,
+      "val": 1800,
+      "test": 2000,
+      "buffer": 400,
+      "invalid": 0
+    },
+    "protocol": "exploratory/predeclared; test may be observed in EDA",
+    "fit_policy": "future fitted transformations use valid train only; A_ref does not select splits",
+    "patch_policy": "pixelwise baseline; future patches must be checked against two-column buffers"
+  },
+  "quality": {
+    "Y_raw": {
+      "shape": [
+        198,
+        10000
+      ],
+      "dtype": "uint16",
+      "min": 0.0,
+      "max": 5437.0,
+      "range_status": "defined",
+      "nonfinite_entries": 0,
+      "negative_entries": 0,
+      "zero_entries": 418
+    },
+    "Y": {
+      "shape": [
+        198,
+        10000
+      ],
+      "dtype": "float64",
+      "min": 0.0,
+      "max": 1.0874,
+      "range_status": "defined",
+      "nonfinite_entries": 0,
+      "negative_entries": 0,
+      "zero_entries": 418
+    },
+    "M": {
+      "shape": [
+        198,
+        4
+      ],
+      "dtype": "float64",
+      "min": 0.0,
+      "max": 0.6290566037735849,
+      "range_status": "defined",
+      "nonfinite_entries": 0,
+      "negative_entries": 0,
+      "zero_entries": 3
+    },
+    "A_ref": {
+      "shape": [
+        4,
+        10000
+      ],
+      "dtype": "float64",
+      "min": 0.0,
+      "max": 1.0000000000000002,
+      "range_status": "defined",
+      "nonfinite_entries": 0,
+      "negative_entries": 0,
+      "zero_entries": 17197
+    },
+    "all_zero_band_ids_original": [],
+    "constant_band_ids_original": [],
+    "duplicate_spectrum_groups": 0,
+    "duplicate_pixels_beyond_first": 0,
+    "duplicate_pixels_in_groups": 0,
+    "Y_above_one_entries": 18,
+    "Y_above_one_pixels": 3,
+    "A_above_one_entries_tolerated": 1,
+    "A_max_abs_sum_error": 1.9206858326015208e-14,
+    "reference_repairs": [],
+    "raw_scale_recovery_max_abs_error": 9.094947017729282e-13
+  },
+  "decisions": {
+    "removed_pixels": 0,
+    "removed_additional_bands": 0,
+    "crop_reapplied": false,
+    "M_unchanged": true,
+    "A_ref_unchanged": true,
+    "duplicates_and_outliers": "retain; flag only",
+    "denoising_or_normalization": "none",
+    "thresholds_fixed_before_EDA": {
+      "pure_abundance": [
+        0.9,
+        0.95,
+        0.99
+      ],
+      "interior_min_abundance": 0.01,
+      "robust_outlier_mad_multiplier": 6.0,
+      "robust_mad_normal_consistency_factor": 1.4826,
+      "outlier_fit_split": "train",
+      "mad_zero_policy": "undefined; flag separately, do not divide by zero",
+      "outlier_action": "flag_only"
+    }
+  },
+  "warnings": [
+    "Y F-order and Y-A pixel pairing remain exploratory conventions; FIG verifies only A F-order and M values.",
+    "Y/5000 is a nominal metadata-based convention, not confirmed physical calibration or common Y-M scale. M-Y band alignment lacks independent wavelength evidence.",
+    "Y exceeds pilot [0,1] domain; adapter or declared domain relaxation required before training. No clipping.",
+    "Reference roundoff within tolerance retained unchanged; no projection/repair."
+  ],
+  "config": {
+    "schema_version": "jasper-preprocess-1.0",
+    "expected_raw_sha256": {
+      "data/jasperRidge2_R198.mat": "0e4118a6452f6044978a8ca3762fb0f791115467904936d463c4e111e56e682e",
+      "data/Jasper_GT.mat": "92f5697b43705802b904fd13ba99b6ce65a3d203682864abc3fbec922beec374",
+      "data/end4_Abundance.fig": "1d0ce4237d03ac97cd7f64debde8e79d2a526f050357a8bdbc0efdee8be2b857",
+      "data/end4_Materials.fig": "7870d2be51e88da548665ff5093a0216f2c894d5630464a0219c395b829a13ad"
+    },
+    "nonnegative_tolerance": 1e-10,
+    "abundance_sum_tolerance": 1e-08,
+    "scale_divisor": 5000,
+    "seed": 20260913,
+    "split_columns_inclusive": {
+      "train": [
+        [
+          0,
+          57
+        ]
+      ],
+      "val": [
+        [
+          60,
+          77
+        ]
+      ],
+      "test": [
+        [
+          80,
+          99
+        ]
+      ],
+      "buffer": [
+        [
+          58,
+          59
+        ],
+        [
+          78,
+          79
+        ]
+      ]
+    },
+    "orientation": {
+      "order": "F",
+      "status": "provisional",
+      "evidence": "Agent A source_audit.md: A[k,:].reshape(100,100,order='F') matches all four FIG CData arrays exactly (max abs error 0); M matches FIG YData exactly. This does not independently verify Y-A pairing. Parent reports Borsoi demo uses MATLAB F reshape for Y with the same filename, but no upstream hash match. F-order for Y remains an exploratory convention.",
+      "A_vs_FIG_status": "verified_exact",
+      "M_vs_FIG_status": "verified_exact",
+      "Y_vs_A_status": "unverified",
+      "Y_orientation_status": "indirect_evidence_exploratory_convention",
+      "audit_report": "reports/jasper_ridge/source_audit.md",
+      "decisions_report": "reports/jasper_ridge/research_decisions.md"
+    },
+    "eda_thresholds_predeclared": {
+      "pure_abundance": [
+        0.9,
+        0.95,
+        0.99
+      ],
+      "interior_min_abundance": 0.01,
+      "robust_outlier_mad_multiplier": 6.0,
+      "robust_mad_normal_consistency_factor": 1.4826,
+      "outlier_fit_split": "train",
+      "mad_zero_policy": "undefined; flag separately, do not divide by zero",
+      "outlier_action": "flag_only"
+    }
+  },
+  "dependencies": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1"
+  },
+  "outputs": {
+    "jasper_clean.npz": {
+      "path": "data/processed/jasper_ridge/jasper_clean.npz",
+      "size_bytes": 4467856,
+      "sha256": "ebfc7037d8f5b330b79506b377c71e9e7246c41b9ded62ac8374fde60506bee2"
+    }
+  }
+}

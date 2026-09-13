@@ -1,0 +1,16 @@
+split,flag,count,n,fraction
+all_valid_descriptive,brightness,4778,10000,0.4778
+all_valid_descriptive,reference_rmse,19,10000,0.0019
+all_valid_descriptive,fcls_rmse,1508,10000,0.1508
+train,brightness,1388,5800,0.2393103448275862
+train,reference_rmse,19,5800,0.0032758620689655174
+train,fcls_rmse,525,5800,0.09051724137931035
+val,brightness,1598,1800,0.8877777777777778
+val,reference_rmse,0,1800,0.0
+val,fcls_rmse,341,1800,0.18944444444444444
+test,brightness,1461,2000,0.7305
+test,reference_rmse,0,2000,0.0
+test,fcls_rmse,563,2000,0.2815
+buffer,brightness,331,400,0.8275
+buffer,reference_rmse,0,400,0.0
+buffer,fcls_rmse,79,400,0.1975
